@@ -6,6 +6,8 @@ import { NavbarComponent } from './core/navbar/navbar.component';
 import { AboutPanelComponent } from './components/about-panel/about-panel.component';
 import { LargePanelComponent } from './components/large-panel/large-panel.component';
 import { SmallButtonComponent } from './components/buttons/small-button/small-button.component';
+import { HomeComponent } from './core/home/home.component';
+import { P2PanelComponent } from './components/p2-panel/p2-panel.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { SmallButtonComponent } from './components/buttons/small-button/small-bu
     NavbarComponent,
     AboutPanelComponent,
     LargePanelComponent,
-    SmallButtonComponent
+    SmallButtonComponent,
+    HomeComponent,
+    P2PanelComponent
   ],
   imports: [
     BrowserModule
