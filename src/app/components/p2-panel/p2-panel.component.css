@@ -1,0 +1,25 @@
+.comm-gardens {
+    margin: 20rem;
+    text-align: center;
+    display: block;
+    height: 450px;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 3px;
+    background-color: white;
+    -webkit-box-shadow: 5px -2px 21px -4px rgba(204,200,204,1);
+    -moz-box-shadow: 5px -2px 21px -4px rgba(204,200,204,1);
+    box-shadow: 5px -2px 21px -4px rgba(204,200,204,1);
+    color: #777;
+}
+.c-header1 {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 24px;
+}
+.garden-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
