@@ -1,14 +1,5 @@
 <div class="home">
-  <div class="home-item">
-    <app-about-panel></app-about-panel>
-  </div>
-  <div class="home-item">
-    <app-about-panel></app-about-panel>
-  </div>
-  <div class="home-item">
-    <app-about-panel></app-about-panel>
-  </div>
-  <div class="home-item">
-    <app-about-panel></app-about-panel>
+  <div class="home-item" *ngFor="let aboutCard of aboutCards">
+    <app-about-panel [aboutCard]="aboutCard"></app-about-panel>
   </div>
 </div>

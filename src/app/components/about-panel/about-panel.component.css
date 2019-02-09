@@ -2,9 +2,10 @@
   text-align: center;
   display: block;
   width: 200px;
+  height: 200px;
   padding: 30px;
   border: 1px solid #dcdde1;
-  border-radius: 3px;
+  border-radius: 10px;
   background-color: white;
   -webkit-box-shadow: 5px -2px 21px -4px rgba(204,200,204,1);
   -moz-box-shadow: 5px -2px 21px -4px rgba(204,200,204,1);
@@ -21,11 +22,8 @@
   font-family: 'Open Sans',sans-serif;
   font-size: 24px;
 }
-.carrot {
-  color: orange;
+.icon {
   font-size: 50px;
   padding: 5px;
 }
-.text {
 
-}

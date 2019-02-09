@@ -8,6 +8,7 @@ import { LargePanelComponent } from './components/large-panel/large-panel.compon
 import { SmallButtonComponent } from './components/buttons/small-button/small-button.component';
 import { HomeComponent } from './core/home/home.component';
 import { P2PanelComponent } from './components/p2-panel/p2-panel.component';
+import {HomeService} from "./services/home.service";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { P2PanelComponent } from './components/p2-panel/p2-panel.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [HomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

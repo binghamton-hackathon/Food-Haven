@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {AboutCard} from "../../shared/models/about-card.model";
 
 @Component({
   selector: 'app-about-panel',
@@ -6,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-panel.component.css']
 })
 export class AboutPanelComponent implements OnInit {
+  @Input('aboutCard') aboutCard: AboutCard;
 
-  constructor() { }
+  constructor() {
+    let color = {
+      'color': this.aboutCard.color
+    };
+  }
 
   ngOnInit() {
   }

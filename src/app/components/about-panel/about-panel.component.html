@@ -1,8 +1,21 @@
 <div class="food-panel">
-  <i class="fas fa-carrot carrot"></i>
-  <h1 class="c-header1"> Food Access </h1>
-  <p class="text"> Points of interest for affordable food access: Community Gardens, Food Pantries, Produce Giveaway </p>
+  <i [ngStyle]="color" class="{{aboutCard.icon}} icon"></i>
+  <h1 class="c-header1">{{aboutCard.title}}</h1>
+  <p class="text">{{aboutCard.description}}</p>
 </div>
+
+<div class="food-panel">
+  <i style="color:{{aboutCard.color}};" class="{{aboutCard.icon}} icon"></i>
+  <h1 class="c-header1">{{aboutCard.title}}</h1>
+  <p class="text">{{aboutCard.description}}</p>
+</div>
+
+<div class="food-panel">
+  <i style="color:{{aboutCard.color}};" class="{{aboutCard.icon}} icon"></i>
+  <h1 class="c-header1">{{aboutCard.title}}</h1>
+  <p class="text">{{aboutCard.description}}</p>
+</div>
+
 
 
 
