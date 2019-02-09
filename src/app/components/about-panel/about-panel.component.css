@@ -9,3 +9,25 @@
   color: dodgerblue;
   font-size: 20px;
 }
+.food-panel {
+    width: 300px;
+    height: 275px;
+    border: 3px solid;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: limegreen;
+}
+.c-header {
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 16px;
+}
+.carrot {
+    color: orange;
+    font-size: 55px;
+    padding: 10px;
+}
