@@ -1,0 +1,11 @@
+.about-panel {
+  width: 100px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.icon {
+  color: dodgerblue;
+  font-size: 20px;
+}
